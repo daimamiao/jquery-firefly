@@ -57,6 +57,12 @@ $.fn.firefly = function(){
         	fireflyCanvas.id = "firefly";
         	fireflyCanvas.width = $(window).width();
         	fireflyCanvas.height = $(window).height();
+			fireflyCanvas.style.zIndex = -10;
+        	fireflyCanvas.style.position = 'fixed';
+        	fireflyCanvas.style.top = 0;
+        	fireflyCanvas.style.left = 0;
+        	fireflyCanvas.style.display = 'inline-block';
+        	fireflyCanvas.style.verticalAlign = 'baseline';
         	document.body.appendChild(fireflyCanvas);
 			if(document.getElementById('firefly')){
 				if(jQuery.support.msie){
