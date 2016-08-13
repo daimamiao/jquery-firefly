@@ -1,2 +1,2 @@
 # jquery-firefly
-[Live Demo](http://blog.iamxcc.com)
+:start: [Live Demo](http://blog.iamxcc.com)
